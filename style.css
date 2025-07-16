@@ -1,0 +1,458 @@
+.jujutsu-kaisen-for {
+  background-color: #101220;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.jujutsu-kaisen-for .overlap-wrapper {
+  background-color: #101220;
+  overflow: hidden;
+  width: 1440px;
+  height: 900px;
+}
+
+.jujutsu-kaisen-for .overlap {
+  position: relative;
+  width: 1441px;
+  height: 920px;
+}
+
+.jujutsu-kaisen-for .mousetrack {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+  height: 900px;
+  align-items: flex-start;
+  gap: 0px 0px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.jujutsu-kaisen-for .MOUSETRACK {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.jujutsu-kaisen-for .div {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-top: -60.00px;
+}
+
+.jujutsu-kaisen-for .navbar {
+  display: flex;
+  width: 1441px;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0c0e1866;
+  backdrop-filter: blur(40px) brightness(100%);
+  -webkit-backdrop-filter: blur(40px) brightness(100%);
+}
+
+.jujutsu-kaisen-for .wallet {
+  position: relative;
+  width: 228.5px;
+  height: 18.6px;
+}
+
+.jujutsu-kaisen-for .CT-as {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  top: 15px;
+  left: 1070px;
+}
+
+.jujutsu-kaisen-for .sign-up {
+  position: relative;
+  width: 115px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.jujutsu-kaisen-for .button {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: 175px;
+  height: 50px;
+  background-color: #bfaff2;
+  border-radius: 15px;
+}
+
+.jujutsu-kaisen-for .overlap-group {
+  position: relative;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.jujutsu-kaisen-for .hover {
+  position: absolute;
+  width: 175px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #bfaff2;
+  border-radius: 15px;
+  transition: all 0.2s ease;
+}
+
+.jujutsu-kaisen-for .hover:hover {
+  background-color: #a490e5;
+}
+
+.jujutsu-kaisen-for .log-in {
+  position: absolute;
+  top: 8px;
+  left: 66px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.jujutsu-kaisen-for .arrow {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 17px;
+  left: 380px;
+}
+
+.jujutsu-kaisen-for .text-wrapper {
+  position: absolute;
+  width: 83px;
+  top: 15px;
+  left: 302px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.jujutsu-kaisen-for .footer {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  position: absolute;
+  top: 838px;
+  left: 0;
+  background-color: #0c0e1866;
+  backdrop-filter: blur(40px) brightness(100%);
+  -webkit-backdrop-filter: blur(40px) brightness(100%);
+}
+
+.jujutsu-kaisen-for .wallet-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.jujutsu-kaisen-for .social {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.jujutsu-kaisen-for .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Lato", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.jujutsu-kaisen-for .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Lato", Helvetica;
+  font-weight: 700;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.jujutsu-kaisen-for .char-card {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 16px;
+  position: absolute;
+  top: 181px;
+  left: 40px;
+}
+
+.jujutsu-kaisen-for .bg {
+  position: absolute;
+  width: 325px;
+  height: 240px;
+  top: 301px;
+  left: 0;
+  background-color: #232028;
+  border-radius: 32px;
+}
+
+.jujutsu-kaisen-for .gojo {
+  position: relative;
+  width: 248px;
+  height: 320px;
+}
+
+.jujutsu-kaisen-for .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.jujutsu-kaisen-for .gojo-satoru {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 38.4px;
+}
+
+.jujutsu-kaisen-for .gojo-satoru-is-an {
+  position: relative;
+  align-self: stretch;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16.8px;
+}
+
+.jujutsu-kaisen-for .char-card-2 {
+  left: 385px;
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 16px;
+  position: absolute;
+  top: 181px;
+}
+
+.jujutsu-kaisen-for .char-card-3 {
+  left: 730px;
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 16px;
+  position: absolute;
+  top: 181px;
+}
+
+.jujutsu-kaisen-for .char-card-4 {
+  left: 1075px;
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 16px;
+  position: absolute;
+  top: 181px;
+}
+
+.jujutsu-kaisen-for .img {
+  position: relative;
+  width: 248px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.jujutsu-kaisen-for .rectangle {
+  width: 99px;
+  height: 111px;
+  top: 53px;
+  left: 312px;
+  background-color: #232028;
+  box-shadow: 0px 0px 11px #ffffff;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.jujutsu-kaisen-for .rectangle-2 {
+  width: 78px;
+  height: 20px;
+  top: 64px;
+  left: 322px;
+  background-color: #020202;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.jujutsu-kaisen-for .text-wrapper-4 {
+  height: 24px;
+  top: 61px;
+  left: 329px;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.jujutsu-kaisen-for .rectangle-3 {
+  width: 78px;
+  height: 20px;
+  top: 97px;
+  left: 324px;
+  background-color: #020202;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.jujutsu-kaisen-for .text-wrapper-5 {
+  width: 39px;
+  height: 17px;
+  top: 98px;
+  left: 345px;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.jujutsu-kaisen-for .rectangle-4 {
+  width: 78px;
+  height: 20px;
+  top: 133px;
+  left: 323px;
+  background-color: #bfaff2;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.jujutsu-kaisen-for .text-wrapper-6 {
+  height: 24px;
+  top: 130px;
+  left: 339px;
+  color: #232028;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.jujutsu-kaisen-for .mouse {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 35px;
+  left: 386px;
+}
+
+.jujutsu-kaisen-for .mouse-2 {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 138px;
+  left: 386px;
+}
+:root {
+  --white: rgba(255, 255, 255, 1);
+}
+/* Dropdown styling */
+.dropdown {
+  position: absolute;
+  top: 50px; /* adjust as needed */
+  left: 302px; /* match text-wrapper position */
+  background-color: #232028;
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 150px;
+}
+
+.dropdown a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  padding: 6px 10px;
+  border-radius: 5px;
+  transition: background 0.2s ease;
+}
+
+.dropdown a:hover {
+  background-color: #444;
+}
+
+.hidden {
+  display: none;
+}
