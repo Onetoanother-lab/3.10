@@ -428,8 +428,8 @@
 /* Dropdown styling */
 .dropdown {
   position: absolute;
-  top: 50px; /* adjust as needed */
-  left: 302px; /* match text-wrapper position */
+  top: 50px; 
+  left: 302px; 
   background-color: #232028;
   border-radius: 8px;
   padding: 10px;
